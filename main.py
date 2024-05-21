@@ -12,7 +12,7 @@ def load_data(file_path):
 st.header("WULEME Komivi Jean-Paul")
 st.header("Analyse des données commerciales  de vente en ligne")
 # Importation du document et vérification du document
-da = load_data("C:/Users/Huesped/Desktop/ExamenNOSQL/pythonProject1/atomic_data.csv")
+da = load_data("atomic_data.csv")
 #st.write(da.head())
 
 # Ajouter une colonne 'Unit Cost' (si elle n'existe pas) - remplir cette colonne avec les coûts réels des unités
